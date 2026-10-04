@@ -9,11 +9,11 @@ Some people think unsupervised learning is boring because there isn't any specif
 
 In unsupervised learning, the classic task is cluster analysis in which you find hidden patterns or groups in data. At most times unsupervised learning tasks are open-ended and you will need to make sense of the data without any clear-defined pathways. But if you keep training yourself and eventually become good at finding pathways out of nowhere, you'll be an established data scientist. This is why you should take unsupervised learning serious.
 
-In this lab, we will present you an unsupervised learning problem without clearly defined goals. Your general objective is to cluster the data and see if you can extract useful insights. But of course we will provide the necessary instructions to help you get started.
+In this lab you segment the clients of a wholesale distributor by what they spend on six product categories. There is no answer column: you decide how to prepare the data, how many clusters to keep and what each cluster means, and you justify those decisions. You will use K-means with the elbow and silhouette methods, profile the clusters, try DBSCAN, and compare both with a PCA projection. The lab follows the **Unsupervised Learning: Clustering and PCA** lesson.
 
 ## Getting Started
 
-Open the `main.ipynb` file in the `your-code` directory. Follow the instructions and add your code and explanations as necessary. By the end of this lab, you will have learned how to prepare a dataset for most scikit-learn algorithms.
+Open the `main.ipynb` file in the `your-code` directory. Follow the instructions, add your code, and write your observations in the markdown cells. The data is in `data/Wholesale customers data.csv`; the other files in `data/` and the notebooks in `learning/` are optional extra material.
 
 ## Deliverables
 
@@ -33,4 +33,6 @@ Upon completion, add your deliverables to git. Then commit git and push your bra
 - [The Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle)
 - [Scikit-Learn Standard Scaling](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler)
 - [Cluster Analysis External Evaluation](https://en.wikipedia.org/wiki/Cluster_analysis#External_evaluation)
+- [scikit-learn user guide: Clustering](https://scikit-learn.org/stable/modules/clustering.html)
+- [scikit-learn user guide: Silhouette coefficient](https://scikit-learn.org/stable/modules/clustering.html#silhouette-coefficient)
 
